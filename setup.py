@@ -12,14 +12,14 @@ DESCRIPTION = '\n\n'.join(LOAD_TEXT(_) for _ in [
 setup(
   name = 'mynameisherojava',      
   packages = ['mynameisherojava'], 
-  version = '0.0.1', 
+  version = '0.0.2', 
   license='MIT', 
   description = 'Who is Herojava',
   long_description=DESCRIPTION,
   author = 'Herojava',                 
   author_email = 'test@gmail.com',     
   url = 'https://github.com/Herojava/',  
-  download_url = 'https://github.com/Herojava/',  
+  download_url = 'https://github.com/Herojava/mynameisherojava',  
   keywords = ['Herojava', 'ASCII ART'],
   classifiers=[
     'Development Status :: 3 - Alpha',     
